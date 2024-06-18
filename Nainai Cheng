@@ -1,0 +1,120 @@
+Claro, aquí tienes un ejemplo de cómo podrías llamar a tu sitio web:
+
+**Nombre del sitio**: `nainai-cheng-website`
+
+Aquí están los pasos detallados para publicar tu página web en GitHub Pages con este nombre de sitio:
+
+1. **Crear un Repositorio en GitHub**:
+   - Ve a [GitHub](https://github.com/) e inicia sesión en tu cuenta.
+   - Crea un nuevo repositorio y nómbralo `nainai-cheng-website`.
+
+2. **Subir tu archivo HTML**:
+   - Dentro de tu repositorio, haz clic en "Add file" y selecciona "Upload files".
+   - Sube tu archivo `index.html`.
+
+3. **Habilitar GitHub Pages**:
+   - Ve a la configuración del repositorio (`Settings`).
+   - Desplázate hacia abajo hasta la sección de GitHub Pages.
+   - En "Source" (Origen), selecciona la rama principal (`main`) y la carpeta raíz (`/`).
+   - Haz clic en "Save" para guardar los cambios.
+   - GitHub generará una URL donde tu página web estará disponible.
+
+4. **URL de tu sitio web**:
+   - La URL de tu sitio web será: `https://tu-usuario.github.io/nainai-cheng-website`
+
+Aquí está el archivo HTML de nuevo para asegurarte de que todo esté correcto:
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nainai Cheng - Escritora y Animalista</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc;
+            color: #333;
+        }
+        header {
+            background-color: #8b4513;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #d2b48c;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #8b4513;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #8b4513;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .title {
+            color: #d2b48c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nainai Cheng</h1>
+        <p>Escritora Novata y Animalista</p>
+    </header>
+    <nav>
+        <a href="#novelas">Mis Novelas</a>
+        <a href="#libros">Mis Libros</a>
+        <a href="#cuentos">Cuentos</a>
+        <a href="#historias">Historias</a>
+        <a href="#consejos-mascotas">Consejos de Mascotas</a>
+    </nav>
+    <section id="novelas">
+        <h2 class="title">Mis Novelas</h2>
+        <p>Aquí puedes encontrar información sobre mis novelas. Desde tramas fascinantes hasta personajes inolvidables, descubre el mundo de mis historias.</p>
+    </section>
+    <section id="libros">
+        <h2 class="title">Mis Libros</h2>
+        <p>En esta sección, te presento mis libros. Ya sea que busques ficción, no ficción, o cualquier otro género, espero que disfrutes de mi trabajo.</p>
+    </section>
+    <section id="cuentos">
+        <h2 class="title">Cuentos</h2>
+        <p>Los cuentos son una parte fundamental de mi escritura. Explora mis cuentos cortos y déjate llevar por las historias que tengo para ti.</p>
+    </section>
+    <section id="historias">
+        <h2 class="title">Historias</h2>
+        <p>Aquí encontrarás una colección de historias diversas. Desde anécdotas personales hasta relatos ficticios, cada historia tiene algo especial que ofrecer.</p>
+    </section>
+    <section id="consejos-mascotas">
+        <h2 class="title">Consejos de Mascotas</h2>
+        <p>Como animalista, me encanta compartir consejos sobre el cuidado de mascotas. En esta sección, encontrarás información útil para mantener a tus amigos peludos felices y saludables.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Nainai Cheng</p>
+    </footer>
+</body>
+</html>
+```
